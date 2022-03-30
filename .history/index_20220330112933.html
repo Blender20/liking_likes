@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav>
+    <h1>Network</h1>
+  </nav>
+  <div class="feed">
+    <h1>Your Feed</h1>
+  </div>
+  <div class="container flex">
+    <div class="leftColumn">
+      <div class="img">
+        <img src="./user.png" alt="user icon">
+      </div>
+
+      <div class="addAvatar"><a href="#">Add an avatar</a>
+      </div>
+      <div class="userInput">
+        <h2>James Doe</h2>
+      </div>
+    </div>
+
+    <div class="right">
+      <h3>Neil M</h3>
+      <h3><span id="likeCount">3</span> like(s)</h3>
+      <button onclick="addLike()" id="like">Like</button>
+
+      <div class="text-box">
+        <h2>I just set up this new discord bot, let me know what you all link <a href="#">link</a></h2>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

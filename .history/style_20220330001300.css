@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+  *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  gap:1.5em;
+}
+nav{
+  min-height: 70px;
+  background-color: #111;
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+  
+  color: #fff;
+  font-family: "balsamiq Sans";
+  padding: 10px
+}
+.container {
+  margin: 0 auto;
+  width: 75%
+  
+}
+
+ .leftColumn{
+  border: 4px solid #111;
+  margin-top: 50px;
+  flex:1;
+  margin: 0 auto;
+ }
+
+.right {
+  border: 1px solid red;
+  /* justify-content: space-between; */
+ /* align-items: center; */
+ flex:3;
+ min-height: 200px;
+ padding: 20px;
+}
+.user{
+ 
+}
+
+h1 {
+  
+  font-size: 36px;
+  padding: 10px;
+}
+h2 {
+  display:inline-block
+  
+ align-items
+
+}
+h3 {
+  font-size: 30px;
+  display: inline;
+  padding-left: 30px;
+  margin:20px;
+  text-align: end;
+  
+}
+.feed {
+  text-align: center;
+  justify-content: center;
+}
+
+
+  
+
+#like {
+  background-color: #FFD966;
+  padding: 8px 20px;
+  margin-top: 15px;
+  margin-left: 150px;
+  font-weight: 900;
+  font-size: 25px;
+  box-shadow: 5px 5px;
+  
+}

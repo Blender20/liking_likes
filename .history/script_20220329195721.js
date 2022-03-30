@@ -1,0 +1,1 @@
+var like = document.querySelector()
